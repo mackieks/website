@@ -642,10 +642,6 @@ body {
 #header #nav ul li:last-child a {
   margin-right: 0;
 }
-#header:hover #logo {
-  filter: none;
-  -webkit-filter: none;
-}
 @media screen and (max-width: 480px) {
   #header #title {
     display: table;
