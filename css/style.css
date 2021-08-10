@@ -601,8 +601,6 @@ body {
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 10px #000);
   -webkit-filter: drop-shadow(10px 10px 10px #000);
-  filter: drop-shadow(10px 10px 10px #000) contrast(175%) brightness(113%);
-  -webkit-filter: drop-shadow(10px 10px 10px #000) contrast(175%) brightness(113%);
 }
 #header #nav {
   color: #d44375;
