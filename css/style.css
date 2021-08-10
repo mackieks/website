@@ -646,7 +646,7 @@ body {
   #header #title {
     display: table;
     margin-right: 5rem;
-    min-height: 50px;
+    min-height: 75px;
   }
   #header #title h1 {
     display: table-cell;
@@ -670,7 +670,7 @@ body {
   }
   #header #nav li:not(:first-child) {
     padding-top: 1rem;
-    padding-left: 70px;
+    padding-left: 106px;
     font-size: 1rem;
   }
 }
