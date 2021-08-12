@@ -1080,15 +1080,6 @@ article header .author {
 article header .postdate {
   display: inline;
 }
-article .content h2:before {
-  position: absolute;
-  top: -4px;
-  left: -1rem;
-  color: #d44375;
-  content: "#";
-  font-weight: bold;
-  font-size: 1.2rem;
-}
 article .content img,
 article .content video {
   display: block;
