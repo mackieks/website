@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/92a3fff4-5957-4482-86ad-a79a855d7ccd/wiiu_logo_192.ico?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230923%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230923T025734Z&X-Amz-Expires=86400&X-Amz-Signature=df85a26f1ba2143164fa4b52955c6408a2031f041c4c544de0767844e5b0ce65&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22wiiu_logo_192.ico%22&response-content-type=image%2Fx-icon&x-id=GetObject
