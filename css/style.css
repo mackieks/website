@@ -594,10 +594,10 @@ body {
   display: inline-block;
   float: left;
   margin-right: 20px;
-  width: 86px;
+  width: 104px;
   height: 75px;
   border-radius: 5px;
-  background-size: 86px 75px;
+  background-size: 104px 75px;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 10px #000);
   -webkit-filter: drop-shadow(10px 10px 10px #000);
@@ -670,7 +670,7 @@ body {
   }
   #header #nav li:not(:first-child) {
     padding-top: 1rem;
-    padding-left: 106px;
+    padding-left: 124px;
     font-size: 1rem;
   }
 }
