@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Furthermore, most of my hardware is open source an">
+    <meta name="description" content="Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Most of my PCB designs are open source and permiss">
 <meta property="og:type" content="website">
 <meta property="og:title" content="projects">
 <meta property="og:url" content="https://mackieks.com/projects/">
 <meta property="og:site_name" content="Mackie Kannard-Smith">
-<meta property="og:description" content="Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Furthermore, most of my hardware is open source an">
+<meta property="og:description" content="Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Most of my PCB designs are open source and permiss">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://mackieks.com/projects/ultrawii.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/reduced.jpg">
@@ -20,14 +20,23 @@
 <meta property="og:image" content="https://mackieks.com/projects/hanami_board.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/hanami.png">
 <meta property="og:image" content="https://mackieks.com/projects/back.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/kawaii.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/kawaii_internals.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/dock_pcb.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/kawaii_game.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/thundervolt_install.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/boardz.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/stackup_downscale.png">
 <meta property="og:image" content="https://mackieks.com/projects/scan.png">
 <meta property="og:image" content="https://mackieks.com/projects/guide.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/lolwut_game.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/lolwut_trim.png">
 <meta property="og:image" content="https://mackieks.com/projects/trim_comparison.png">
 <meta property="og:image" content="https://mackieks.com/projects/bistro.png">
-<meta property="og:image" content="https://mackieks.com/projects/shinobi_board.png">
-<meta property="og:image" content="https://mackieks.com/projects/maplepad_logo.png">
+<meta property="og:image" content="https://mackieks.com/projects/scampi.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/top.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/lontium.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/maplepad_controller.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/maplepad_collage.png">
 <meta property="og:image" content="https://mackieks.com/projects/vegas_latest.png">
 <meta property="og:image" content="https://mackieks.com/projects/vegas_front.jpg">
@@ -37,6 +46,7 @@
 <meta property="og:image" content="https://mackieks.com/projects/asnes.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/asnes_game.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/layers.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/flexes.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/cafe.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/cafe_layout.png">
 <meta property="og:image" content="https://mackieks.com/projects/gerber.png">
@@ -52,7 +62,7 @@
 <meta property="og:image" content="https://mackieks.com/projects/art2.png">
 <meta property="og:image" content="https://mackieks.com/projects/clock.jpg">
 <meta property="article:published_time" content="2021-08-10T00:44:47.000Z">
-<meta property="article:modified_time" content="2024-05-02T00:19:36.961Z">
+<meta property="article:modified_time" content="2024-12-19T18:50:11.209Z">
 <meta property="article:author" content="Mackie Kannard-Smith">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://mackieks.com/projects/ultrawii.jpg">
@@ -126,13 +136,12 @@
 
   <div class="content" itemprop="articleBody">
       
-          <p>Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Furthermore, most of my hardware is open source and permissively licensed <a target="_blank" rel="noopener" href="https://github.com/mackieks">on GitHub</a>.</p>
+          <p>Many of my electronics projects are related to portablizing, which is the hobby of turning video game consoles into battery-powered handheld devices. Most of my PCB designs are open source and permissively licensed <a target="_blank" rel="noopener" href="https://github.com/mackieks">on GitHub</a>.</p>
 <h2 id="UltraWii"><a href="#UltraWii" class="headerlink" title="UltraWii"></a>UltraWii</h2><p>UltraWii is a portable, handheld Nintendo Wii I built from scratch. It uses a real Wii motherboard that has been trimmed down with a Dremel and runs for over six hours from four 18650 cells. I designed the plastic shell in Fusion 360 and 3D printed it on my Prusa i3 MK3. I also designed six PCBs in the unit, including a main four-layer board that incorporates USB PD negotiation, 5A battery charging, voltage regulation for the Wii’s various voltage lines, an I2S audio amp, and thermal protection.</p>
 <img src="ultrawii.jpg" width="450">
 
 <img src="reduced.jpg" width="450">
 
-<p>I designed the first iteration of this board in early 2018, and continually update it to use newer and more interesting ICs. For me, PCB design is as much an art as it is engineering, so I enjoy iterating on the design for fun. The current board is the sixth or seventh version.</p>
 <img src="ultrawii_pcb.png" width="450">
 
 <h2 id="Playstation-Hanami"><a href="#Playstation-Hanami" class="headerlink" title="Playstation Hanami"></a>Playstation Hanami</h2><img src="pshanami.jpg" width="450">
@@ -145,6 +154,21 @@
 
 <img src="back.jpg" width="450">
 
+<h2 id="Kawaii"><a href="#Kawaii" class="headerlink" title="Kawaii"></a>Kawaii</h2><img src="kawaii.jpg" width="450">
+
+<p>A collaboration between myself, WeskMods, and haoxuanding2, the Kawaii is a fully functional Nintendo Wii ‘keychain’ measuring only 60x60x15mm. The shell is CNC machined from aluminum, anodized, and laser etched. The unit mates with a dock via pogo pins, allowing the user to connect to a TV and plug in controllers. The project is still undergoing some final optimizations, with a full open-source release planned for early 2025.</p>
+<img src="kawaii_internals.jpg" width="450">
+
+<img src="dock_pcb.jpg" width="450">
+
+<img src="kawaii_game.jpg" width="450">
+
+
+<h2 id="Thundervolt"><a href="#Thundervolt" class="headerlink" title="Thundervolt"></a>Thundervolt</h2><img src="thundervolt_install.jpg" width="450">
+
+<p>Thundervolt is an open-source hardware and software suite I developed in collaboration with a few other members of the BitBuilt community. It enables software-configurable undervolting of Nintendo Wii motherboards via a homebrew app, which reduces their power consumption and allows handheld/miniature Wii devices to run longer and cooler. The Thundervolt PCB is a “hat” that solders onto the Wii motherboard, and features hand-drawn soldermask aperture artwork. Please see <a target="_blank" rel="noopener" href="https://github.com/mackieks/thundervolt">the GitHub repo</a> for more details!</p>
+<img src="boardz.jpg" width="450">
+
 <h2 id="Wii-U-Reverse-Engineering"><a href="#Wii-U-Reverse-Engineering" class="headerlink" title="Wii U Reverse Engineering"></a>Wii U Reverse Engineering</h2><p>As a veteran member of the BitBuilt.net forums, an online community centered around video game console portablizing, I have developed various bleeding-edge motherboard trims to allow consoles to fit inside battery-powered handhelds. My work on the Nintendo Wii U is a prime example: over the course of three months in 2023, I developed an aggressive trim based on scans and X-rays I took of the 6-layer Wii U motherboard. I clean-room reverse-engineered the pinouts and functionality of various circuits on the PCB as part of this process.</p>
 <img src="stackup_downscale.png" width="450">
 
@@ -153,6 +177,8 @@
 <img src="guide.jpg" width="450">
 
 <p>In September 2023, I completed the LOLWUT trim, which reduces the Wii U’s board area by over 70% by relocating a plethora of components to vias under the processor using magnet wire. The end result is a fully-functional Wii U that measures only 81 x 111mm— the perfect size to integrate into a battery-powered handheld. </p>
+<img src="lolwut_game.jpg" width="450">
+
 <img src="lolwut_trim.png" width="450">
 
 <img src="trim_comparison.png" width="450">
@@ -160,11 +186,17 @@
 <p>To power the motherboard, I designed a ~20W regulator board capable of generating the various system voltage rails from 1S 21700 lithium-ion cells. The design is open source— <a target="_blank" rel="noopener" href="https://github.com/mackieks/bistro">check it out on GitHub!</a></p>
 <img src="bistro.png" width="450">
 
-<h2 id="Shinobi-Scaler"><a href="#Shinobi-Scaler" class="headerlink" title="Shinobi Scaler"></a>Shinobi Scaler</h2><p>Shinobi Scaler is a miniaturized open source reimplementation of the widely available GBS-8200 video scaler board. The GBS-8200 utilizes a Trueview 5725 scaler IC and is commonly used to upscale analog video from retro game consoles for display on flat panel TVs and monitors. </p>
-<img src="shinobi_board.png" width="450">
+<h2 id="Scampi"><a href="#Scampi" class="headerlink" title="Scampi"></a>Scampi</h2><p>An open source, shrimp-themed audio amp utilizing a TLV320AIC3110 and an ATtiny1616. Firmware written in C using PlatformIO.</p>
+<img src="scampi.jpg" width="450">
 
-<p>I reverse-engineered the GBS-8200 PCB and reimplemented it, integrating high-quality voltage regulation, an ESP-8266 with a 2.4GHz PCB antenna to run GBS-Control (a community-developed custom firmware), and other quality-of-life improvements for portablizers. I have assembled and sold these in small batch quantities to the modding community in the past. The design is permissively licensed under Solderpad Hardware v2.1; <a target="_blank" rel="noopener" href="https://github.com/mackieks/Shinobi-Scaler">please see the GitHub repo for details.</a></p>
-<h2 id="MaplePad"><a href="#MaplePad" class="headerlink" title="MaplePad"></a>MaplePad</h2><img src="maplepad_logo.png" width="250">
+<h2 id="Shinobi-Scaler"><a href="#Shinobi-Scaler" class="headerlink" title="Shinobi Scaler"></a>Shinobi Scaler</h2><p>Shinobi Scaler is a miniaturized open source reimplementation of the widely available GBS-8200 video scaler board. The GBS-8200 utilizes a Trueview 5725 scaler IC and is commonly used to upscale analog video from retro game consoles for display on flat panel TVs and monitors. </p>
+<img src="top.jpg" width="450">
+
+<p>I reverse-engineered the GBS-8200 PCB and reimplemented it, integrating high-quality voltage regulation, an ESP8285 with a 2.4GHz antenna to run GBS-Control (a community-developed custom firmware), and other quality-of-life improvements for portablizers. I have assembled and sold these in small batch quantities to the modding community in the past. The design is permissively licensed under Solderpad Hardware v2.1; <a target="_blank" rel="noopener" href="https://github.com/mackieks/Shinobi-Scaler">please see the GitHub repo for details.</a></p>
+<h2 id="melonHD"><a href="#melonHD" class="headerlink" title="melonHD"></a>melonHD</h2><p>A work-in-progress HDMI to DP Alt Mode solution for DIY handheld game devices, based on the LT6711A.</p>
+<img src="lontium.jpg" width="450">
+
+<h2 id="MaplePad"><a href="#MaplePad" class="headerlink" title="MaplePad"></a>MaplePad</h2><img src="maplepad_controller.jpg" width="450">
 
 <p>MaplePad is my permissively-licensed (CC-BY-4.0) open-source Dreamcast controller emulator, which implements the Sega Dreamcast’s Maple Bus (used for controllers and peripherals) in software and PIO on a Raspberry Pi RP2040 microcontroller. MaplePad is a heavily modified fork of Charlie Cole’s Pop’n Music Controller codebase, and is intended to be a feature-complete Dreamcast controller, arcade stick, VMU, and Purupuru (rumble) pack emulator for portablizing applications. I have designed, assembled and tested a number of custom RP2040 boards that run MaplePad code and function as DC controller replacements.</p>
 <img src="maplepad_collage.png" width="450">
@@ -191,7 +223,10 @@
 <p>The redesign was aided by scans I made of the SNES Jr. motherboard in early 2020.</p>
 <img src="layers.jpg" width="450">
 
-<h2 id="Flexible-PCBs"><a href="#Flexible-PCBs" class="headerlink" title="Flexible PCBs"></a>Flexible PCBs</h2><p>Sometimes relocating ICs on modified boards is easier with a flexible polyimide PCB. I’ve designed quite a few of these.</p>
+<h2 id="Flexible-PCBs"><a href="#Flexible-PCBs" class="headerlink" title="Flexible PCBs"></a>Flexible PCBs</h2><p>Sometimes relocating ICs on modified boards is easier with a flexible polyimide PCB. I’ve designed quite a few of these and they are all open source on GitHub.</p>
+<h3 id="nandFlex"><a href="#nandFlex" class="headerlink" title="nandFlex"></a>nandFlex</h3><img src="flexes.jpg" width="450">
+
+<p>A simple flex for relocating the Wii’s NAND flash memory.</p>
 <h3 id="Cafeflex"><a href="#Cafeflex" class="headerlink" title="Caféflex"></a>Caféflex</h3><img src="cafe.jpg" width="450">
 
 <p>Caféflex is an open source FPC I designed to relocate the Wii U’s TSOP NAND flash and Wi-Fi module. It also replaces the Wii U console’s eMMC with a microSD card. This greatly simplifies the ‘LOLWUT’ Wii U motherboard trim described above!</p>
@@ -207,7 +242,6 @@
 
 <p>FujiFlex is a flex PCB implementation of the popular GCVideo DVI HDL project, which adds DVI output to Wii consoles. The design is optimized for installation into custom handheld Wii builds and outputs DVI over a 19-pin FFC. Install photo by my friend loopj.</p>
 <img src="layout.png" width="450">
-
 
 <h3 id="Dreamcast-FPCs"><a href="#Dreamcast-FPCs" class="headerlink" title="Dreamcast FPCs"></a>Dreamcast FPCs</h3><img src="gdemuflex.jpg" width="450">
 
