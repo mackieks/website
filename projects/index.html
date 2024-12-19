@@ -48,8 +48,8 @@
 <meta property="og:image" content="https://mackieks.com/projects/flexes.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/cafe.jpg">
 <meta property="og:image" content="https://mackieks.com/projects/cafe_layout.png">
-<meta property="og:image" content="https://mackieks.com/projects/gerber.png">
 <meta property="og:image" content="https://mackieks.com/projects/aveflex_install.jpg">
+<meta property="og:image" content="https://mackieks.com/projects/gerber.png">
 <meta property="og:image" content="https://mackieks.com/projects/fujiflex.png">
 <meta property="og:image" content="https://mackieks.com/projects/layout.png">
 <meta property="og:image" content="https://mackieks.com/projects/gdemuflex.jpg">
@@ -61,7 +61,7 @@
 <meta property="og:image" content="https://mackieks.com/projects/art2.png">
 <meta property="og:image" content="https://mackieks.com/projects/clock.jpg">
 <meta property="article:published_time" content="2021-08-10T00:44:47.000Z">
-<meta property="article:modified_time" content="2024-12-19T18:57:29.399Z">
+<meta property="article:modified_time" content="2024-12-19T19:03:48.842Z">
 <meta property="article:author" content="Mackie Kannard-Smith">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://mackieks.com/projects/ultrawii.jpg">
@@ -221,49 +221,48 @@
 <p>The redesign was aided by scans I made of the SNES Jr. motherboard in early 2020.</p>
 <img src="layers.jpg" width="450">
 
-<h2 id="Flexible-PCBs"><a href="#Flexible-PCBs" class="headerlink" title="Flexible PCBs"></a>Flexible PCBs</h2><p>Sometimes relocating ICs on modified boards is easier with a flexible polyimide PCB. I’ve designed quite a few of these and they are all open source on GitHub.</p>
-<h3 id="nandFlex"><a href="#nandFlex" class="headerlink" title="nandFlex"></a>nandFlex</h3><img src="flexes.jpg" width="450">
+<h2 id="nandFlex"><a href="#nandFlex" class="headerlink" title="nandFlex"></a>nandFlex</h2><img src="flexes.jpg" width="450">
 
-<p>A simple flex for relocating the Wii’s NAND flash memory.</p>
-<h3 id="Cafeflex"><a href="#Cafeflex" class="headerlink" title="Caféflex"></a>Caféflex</h3><img src="cafe.jpg" width="450">
+<p>A simple flex PCB for relocating the Wii’s NAND flash memory.</p>
+<h2 id="Cafeflex"><a href="#Cafeflex" class="headerlink" title="Caféflex"></a>Caféflex</h2><img src="cafe.jpg" width="450">
 
-<p>Caféflex is an open source FPC I designed to relocate the Wii U’s TSOP NAND flash and Wi-Fi module. It also replaces the Wii U console’s eMMC with a microSD card. This greatly simplifies the ‘LOLWUT’ Wii U motherboard trim described above!</p>
+<p>Caféflex is an open source FPC I designed to relocate the Wii U’s TSOP NAND flash and Wi-Fi module. It also replaces the Wii U console’s eMMC with a microSD card. This greatly simplifies the ‘LOLWUT’ Wii U motherboard trim described above! <a target="_blank" rel="noopener" href="https://github.com/mackieks/cafeFlex">Check it out on GitHub.</a></p>
 <img src="cafe_layout.png" width="450">
 
-<h3 id="AVEflex"><a href="#AVEflex" class="headerlink" title="AVEflex"></a>AVEflex</h3><img src="gerber.png" width="450">
+<h2 id="AVEflex"><a href="#AVEflex" class="headerlink" title="AVEflex"></a>AVEflex</h2><img src="aveflex_install.jpg" width="450">
 
 <p>AVEflex is a flexible PCB for relocating the Audio-Video Encoder (AVE) on the Nintendo Wii. By placing the AVE under the CPU on the underside of the mainboard, the board can be trimmed smaller while retaining analog video and audio out.</p>
-<img src="aveflex_install.jpg" width="450">
+<img src="gerber.png" width="450">
 
-<p>The latest iteration of the design is open source and licensed under Solderpad Hardware v2.1. <a target="_blank" rel="noopener" href="https://github.com/mackieks/AVEFlex">Please check it out on GitHub!</a></p>
-<h3 id="FujiFlex"><a href="#FujiFlex" class="headerlink" title="FujiFlex"></a>FujiFlex</h3><img src="fujiflex.png" width="450">
+<p><a target="_blank" rel="noopener" href="https://github.com/mackieks/AVEFlex">Check it out on Github!</a></p>
+<h2 id="FujiFlex"><a href="#FujiFlex" class="headerlink" title="FujiFlex"></a>FujiFlex</h2><img src="fujiflex.png" width="450">
 
-<p>FujiFlex is a flex PCB implementation of the popular GCVideo DVI HDL project, which adds DVI output to Wii consoles. The design is optimized for installation into custom handheld Wii builds and outputs DVI over a 19-pin FFC. Install photo by my friend loopj.</p>
+<p>FujiFlex is a flex PCB implementation of the popular GCVideo DVI FPGA project, which adds DVI output to Wii consoles. The design is optimized for installation into custom handheld Wii builds and outputs DVI over a 19-pin FFC. Install photo by my friend loopj. <a target="_blank" rel="noopener" href="https://github.com/mackieks/fujiflex">GitHub repo</a></p>
 <img src="layout.png" width="450">
 
-<h3 id="Dreamcast-FPCs"><a href="#Dreamcast-FPCs" class="headerlink" title="Dreamcast FPCs"></a>Dreamcast FPCs</h3><img src="gdemuflex.jpg" width="450">
+<h2 id="Dreamcast-FPCs"><a href="#Dreamcast-FPCs" class="headerlink" title="Dreamcast FPCs"></a>Dreamcast FPCs</h2><img src="gdemuflex.jpg" width="450">
 
 <p>To enable further trimming of the Sega Dreamcast motherboard, I designed a trio of FPCs to relocate the AICA (sound coprocessor IC) and its SDRAM (replaced with modern BGA package), the BIOS (replaced with BGA) and disc drive connector, and the video encoder IC, named AICAflex, GDEMUflex, and DVEflex respectively.</p>
 <p>I have spent about 9 months iterating on AICAflex; BGA SDRAM on an FPC is no joke. However as of July 2022 both GDEMUflex and AICAflex are working thanks to stainless steel stiffener and some DFM optimizations.</p>
 <img src="aicaflex.jpg" width="450">
 
-<h2 id="Miscellaneous"><a href="#Miscellaneous" class="headerlink" title="Miscellaneous"></a>Miscellaneous</h2><p>These are some other things I’ve made over the years.</p>
-<h3 id="Raspberry-Pi-Handhelds"><a href="#Raspberry-Pi-Handhelds" class="headerlink" title="Raspberry Pi Handhelds"></a>Raspberry Pi Handhelds</h3><p>I’ve designed and built a number of Raspberry Pi handhelds from scratch, like this 3D printed one with a trimmed Pi 3 and a 3.5” 640*480 LCD driven with the Pi’s parallel RGB interface.</p>
+
+<h2 id="Raspberry-Pi-Handhelds"><a href="#Raspberry-Pi-Handhelds" class="headerlink" title="Raspberry Pi Handhelds"></a>Raspberry Pi Handhelds</h2><p>I’ve designed and built a number of Raspberry Pi handhelds from scratch, like this 3D printed one with a trimmed Pi 3 and a 3.5” 640*480 LCD driven with the Pi’s parallel RGB interface.</p>
 <img src="pi3p.png" width="450">
 
-<h3 id="Capstone-Project"><a href="#Capstone-Project" class="headerlink" title="Capstone Project"></a>Capstone Project</h3><p>My engineering capstone project in college was a datalogger with ruggedization requirements imposed by the client, Sandia National Labs. My design included a redundant fallback datalogging system with a captive micro SD slot to ensure we would still collect data in the case of the main system’s failure.</p>
+<h2 id="Capstone-Project"><a href="#Capstone-Project" class="headerlink" title="Capstone Project"></a>Capstone Project</h2><p>My engineering capstone project in college was a datalogger with ruggedization requirements imposed by the client, Sandia National Labs. My design included a redundant fallback datalogging system with a captive micro SD slot to ensure we would still collect data in the case of the main system’s failure.</p>
 <img src="capstone.jpg" width="450">
 
-<h3 id="Regulator-Boards"><a href="#Regulator-Boards" class="headerlink" title="Regulator Boards"></a>Regulator Boards</h3><p>I make many of these sorts of designs. They’re simple, but very useful in a hobby environment. This particular board has four bucks, with trimpot-adjustable Vout, optimized for powering a trimmed Wii motherboard.</p>
+<h2 id="Regulator-Boards"><a href="#Regulator-Boards" class="headerlink" title="Regulator Boards"></a>Regulator Boards</h2><p>I make many of these sorts of designs. They’re simple, but very useful in a hobby environment. This particular board has four bucks, with trimpot-adjustable Vout, optimized for powering a trimmed Wii motherboard.</p>
 <img src="board.jpg" width="450">
 
-<h3 id="Art-PCBs"><a href="#Art-PCBs" class="headerlink" title="Art PCBs"></a>Art PCBs</h3><p>I enjoy dabbling in PCB artwork. The limited color palette and restrictions of the Gerber format make it a fun medium.</p>
+<h2 id="Art-PCBs"><a href="#Art-PCBs" class="headerlink" title="Art PCBs"></a>Art PCBs</h2><p>I enjoy dabbling in PCB artwork. The limited color palette and restrictions of the Gerber format make it a fun medium.</p>
 <img src="art_collage.png" width="450">
 
 <img src="art2.png" width="450">
 
 
-<h3 id="TTL-Clock"><a href="#TTL-Clock" class="headerlink" title="TTL Clock"></a>TTL Clock</h3><p>A simple TTL clock I built to show to visitors at NMSU’s Aggie Innovation Space.</p>
+<h2 id="TTL-Clock"><a href="#TTL-Clock" class="headerlink" title="TTL Clock"></a>TTL Clock</h2><p>A simple TTL clock I built to show to visitors at NMSU’s Aggie Innovation Space.</p>
 <img src="clock.jpg" width="450">
 
 
